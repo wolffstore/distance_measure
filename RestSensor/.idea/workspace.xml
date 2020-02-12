@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54082a54-3e4b-4c8a-9e1d-638be1c07e6e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XflEg4OGmTWiKH4hh2UvouPytf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="RestSensor" type="Python.FlaskServer">
+      <module name="RestSensor" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54082a54-3e4b-4c8a-9e1d-638be1c07e6e" name="Default Changelist" comment="" />
+      <created>1581444920251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581444920251</updated>
+      <workItem from="1581444955303" duration="121000" />
+      <workItem from="1581445279470" duration="2026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="742" y="301" width="426" height="512" key="FileChooserDialogImpl" timestamp="1581446258556">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="742" y="301" width="426" height="512" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1581446258555" />
+    <state x="463" y="192" key="SettingsEditor" timestamp="1581445320727">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="463" y="192" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1581445320727" />
+    <state x="759" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1581445282186">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="759" y="210" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1581445282186" />
+    <state x="622" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1581447026954">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="622" y="264" width="672" height="678" key="search.everywhere.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1581447026954" />
+  </component>
+</project>
