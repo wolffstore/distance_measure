@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e133b863-08aa-4916-9c1f-03520e1ca0e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XlLJ3f7NkuBsrKA07z3MZNYYer" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alata\PycharmProjects\BuckiezTuts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BuckiezTuts" type="Python.FlaskServer">
+      <module name="BuckiezTuts" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e133b863-08aa-4916-9c1f-03520e1ca0e2" name="Default Changelist" comment="" />
+      <created>1581615658635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581615658635</updated>
+      <workItem from="1581615663892" duration="2539000" />
+      <workItem from="1581662696664" duration="8325000" />
+      <workItem from="1581682530795" duration="3243000" />
+      <workItem from="1581766085727" duration="3092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1047" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581617708340">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1047" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581617708340" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581691426178">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581691426178" />
+    <state width="2517" height="570" key="GridCell.Tab.0.bottom" timestamp="1581693894780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="570" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581681751731" />
+    <state width="2517" height="570" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581693894780" />
+    <state width="2517" height="570" key="GridCell.Tab.0.center" timestamp="1581693894780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="570" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581681751731" />
+    <state width="2517" height="570" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581693894780" />
+    <state width="2517" height="570" key="GridCell.Tab.0.left" timestamp="1581693894779">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="570" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581681751731" />
+    <state width="2517" height="570" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581693894779" />
+    <state width="2517" height="570" key="GridCell.Tab.0.right" timestamp="1581693894780">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="570" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581681751731" />
+    <state width="2517" height="570" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581693894780" />
+    <state x="943" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1581766091247">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="387" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1581662726073" />
+    <state x="943" y="387" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581766091247" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BuckiezTuts$BuckiezTuts.coverage" NAME="BuckiezTuts Coverage Results" MODIFIED="1581693862771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
