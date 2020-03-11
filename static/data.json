@@ -1,0 +1,19 @@
+{
+    "sensors": [
+        {
+            "id": 1,
+            "side": 1,
+            "distance": 26
+        },
+        {
+            "id": 2,
+            "side": 2,
+            "distance": 30
+        },
+        {
+            "id": 3,
+            "side": 3,
+            "distance": 14
+        }
+    ]
+}

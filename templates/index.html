@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='stylesheet.css') }}">
+</head>
+
+<body>
+<h1 class="head">Welcome to Wolfstores distance measurer</h1>
+<section class="container">
+
+    {% for sensor in sensors %}
+
+        <section class="sensors" id="sens{{ sensor.id }}">
+            <p id="sensor{{ sensor.id }}">Distance of sensor {{ sensor.id }}:</p>
+        </section>
+
+    {% endfor %}
+
+</section>
+
+<button class="writer" ready="true">Begin</button>
+<button class="tester">Tester</button>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="{{ url_for('static',filename = 'app.js') }}"></script>
+
+<script type="text/javascript">
+      setInterval(
+          function () {
+              guiUpdater();
+          },100);
+</script>
+
+</body>
+</html>
