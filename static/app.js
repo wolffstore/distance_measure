@@ -77,7 +77,7 @@ function guiUpdater() {
 
             if (sensor1.distance < 20.0) {
                 $('#sens' + sensor1.id).css("background-color", "red");
-                $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance + " cm");
+                $('#sensor' + sensor1.id).text('You are too close to Sensor  ' + sensor1.id + " Distance is: " + sensor1.distance + " cm, Please drive Carefully");
             } else {
                 $('#sens' + sensor1.id).css("background-color", "green");
                 $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance+ " cm");
@@ -86,7 +86,7 @@ function guiUpdater() {
 
             if (sensor2.distance < 20.0) {
                 $('#sens' + sensor2.id).css("background-color", "red");
-                $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance+ " cm");
+                $('#sensor' + sensor2.id).text('You are too close to Sensor ' + sensor2.id + " Distance is: " + sensor2.distance+ " cm, Please drive Carefully");
 
             } else {
                 $('#sens' + sensor2.id).css("background-color", "green");
@@ -95,7 +95,7 @@ function guiUpdater() {
 
             if (sensor3.distance < 20.0) {
                 $('#sens' + sensor3.id).css("background-color", "red");
-                $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance+ " cm");
+                $('#sensor' + sensor3.id).text('You are too close to Sensor ' + sensor3.id + " Distance is: " + sensor3.distance+ " cm, Please drive Carefully");
 
             } else {
                 $('#sens' + sensor3.id).css("background-color", "green");
