@@ -8,5 +8,5 @@ class Sensor:
         self.echo = echo
         self.trigger = trigger
 
-    def getDistance(self):
+    def calculateDistance(self):
         return random.randrange(0,51)

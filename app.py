@@ -35,19 +35,19 @@ def writeFile():
     jsonData['sensors'].append({
         'id': sensor1.id,
         'side': sensor1.side,
-        'distance': sensor1.getDistance()
+        'distance': sensor1.calculateDistance()
     })
 
     jsonData['sensors'].append({
         'id': sensor2.id,
         'side': sensor2.side,
-        'distance': sensor2.getDistance()
+        'distance': sensor2.calculateDistance()
     })
 
     jsonData['sensors'].append({
         'id': sensor3.id,
         'side': sensor3.side,
-        'distance': sensor3.getDistance()
+        'distance': sensor3.calculateDistance()
     })
 
     with open('static/data.json', 'w') as outfile:
