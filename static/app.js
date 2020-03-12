@@ -76,30 +76,30 @@ function guiUpdater() {
 
             if (sensor1.distance < 20) {
                 $('#sens' + sensor1.id).css("background-color", "red");
-                $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance + "m.");
+                $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance + "cm");
             } else {
                 $('#sens' + sensor1.id).css("background-color", "green");
-                $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance);
+                $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance+ "cm");
 
             }
 
             if (sensor2.distance < 20) {
                 $('#sens' + sensor2.id).css("background-color", "red");
-                $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance);
+                $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance+ "cm");
 
             } else {
                 $('#sens' + sensor2.id).css("background-color", "green");
-                $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance);
+                $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance+ "cm");
 
             }
 
             if (sensor3.distance < 20) {
                 $('#sens' + sensor3.id).css("background-color", "red");
-                $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance);
+                $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance+ "cm");
 
             } else {
                 $('#sens' + sensor3.id).css("background-color", "green");
-                $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance);
+                $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance+ "cm");
 
             }
 
