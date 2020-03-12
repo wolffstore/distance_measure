@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from Person import Person
+from SensorPi import SensorPi
 from Sensor import Sensor
 import threading
 import json
@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def malakas():
-    sensor1 = Sensor(1, 1, 7, 11)
-    sensor2 = Sensor(2, 2, 7, 13)
-    sensor3 = Sensor(3, 3, 7, 15)
+    sensor1 = SensorPi(1, 1, 7, 11)
+    sensor2 = SensorPi(2, 2, 7, 13)
+    sensor3 = SensorPi(3, 3, 7, 15)
 
     sensors = [sensor1, sensor2, sensor3]
 
@@ -26,9 +26,9 @@ def writecontinuously():
 
 
 def writeFile():
-    sensor1 = Sensor(1, 1, 7, 11)
-    sensor2 = Sensor(2, 2, 7, 13)
-    sensor3 = Sensor(3, 3, 7, 15)
+    sensor1 = SensorPi(1, 1, 7, 11)
+    sensor2 = SensorPi(2, 2, 7, 13)
+    sensor3 = SensorPi(3, 3, 7, 15)
 
     jsonData = {}
     jsonData['sensors'] = []
