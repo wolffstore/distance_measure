@@ -69,6 +69,7 @@ function guiUpdater() {
             var sensor1 = {id: data.sensors[0]['id'], distance: data.sensors[0]['distance']};
             var sensor2 = {id: data.sensors[1]['id'], distance: data.sensors[1]['distance']};
             var sensor3 = {id: data.sensors[2]['id'], distance: data.sensors[2]['distance']};
+            //Debugging purposes
             console.log(sensor1);
             console.log(sensor2);
             console.log(sensor3);
@@ -90,7 +91,6 @@ function guiUpdater() {
             } else {
                 $('#sens' + sensor2.id).css("background-color", "green");
                 $('#sensor' + sensor2.id).text('Distance of sensor ' + sensor2.id + " is: " + sensor2.distance+ " cm");
-
             }
 
             if (sensor3.distance < 20.0) {
