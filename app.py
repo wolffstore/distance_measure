@@ -34,19 +34,19 @@ def writeFile():
     jsonData['sensors'] = []
     jsonData['sensors'].append({
         'id': sensor1.id,
-        'side': sensor1.side,
+        'side': sensor1.corridor,
         'distance': sensor1.calculateDistance()
     })
 
     jsonData['sensors'].append({
         'id': sensor2.id,
-        'side': sensor2.side,
+        'side': sensor2.corridor,
         'distance': sensor2.calculateDistance()
     })
 
     jsonData['sensors'].append({
         'id': sensor3.id,
-        'side': sensor3.side,
+        'side': sensor3.corridor,
         'distance': sensor3.calculateDistance()
     })
 
@@ -64,9 +64,7 @@ def begin():
 
 @app.route('/update', methods=['POST'])
 def update():
-    person = Person("fotis", "alatas", 30)
-
-    return jsonify({'result': 'success', 'name': person.name, 'age': person.age})
+    return jsonify({'result': 'success'})
 
 
 if __name__ == '__main__':
