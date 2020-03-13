@@ -23,8 +23,12 @@
     {% endfor %}
 
 </section>
-
-<button class="writer" ready="true">Begin</button>
+<section class="writer">
+    <audio id="#beep">
+        <source src="{{ url_for('static',filename='Beep.mp3') }}" type="audio/mpeg">
+    </audio>
+    <button class="writerButton" ready="true">Begin</button>
+</section>
 
 
 <script src="http://code.jquery.com/jquery.js"></script>

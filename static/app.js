@@ -81,7 +81,6 @@ function guiUpdater() {
             } else {
                 $('#sens' + sensor1.id).css("background-color", "green");
                 $('#sensor' + sensor1.id).text('Distance of sensor ' + sensor1.id + " is: " + sensor1.distance+ " cm");
-
             }
 
             if (sensor2.distance < 20.0) {
@@ -101,6 +100,10 @@ function guiUpdater() {
                 $('#sens' + sensor3.id).css("background-color", "green");
                 $('#sensor' + sensor3.id).text('Distance of sensor ' + sensor3.id + " is: " + sensor3.distance+ " cm");
 
+            }
+
+            if(sensor3.distance < 20.0 ||sensor2.distance ||sensor1.distance){
+                $('audio#beep')[0].play();
             }
 
         }
