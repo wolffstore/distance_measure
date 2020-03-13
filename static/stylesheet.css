@@ -1,5 +1,20 @@
 .writer {
 
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 140px 4px 100px -200px;
+}
+
+.writerButton {
     background-color: #3374ff;
     border: none;
     color: white;
@@ -10,15 +25,12 @@
     font-size: 16px;
     border-radius: 25px;
     cursor: pointer;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin: 140px 4px 100px -200px;
 }
 
-.writer:hover {
+.writerButton:hover {
     background-color: #008CBA;
 }
+
 
 .container {
     display: flex;
@@ -42,10 +54,10 @@
     border: 4px black;
     background-color: blueviolet;
     padding: 10px;
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
-.head{
+.head {
     left: 35%;
     position: absolute;
 }
