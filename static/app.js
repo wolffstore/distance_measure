@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('.writer').on('click', function () {
+    $('.writerButton').on('click', function () {
 
         var state = $(this).attr('ready');
 
@@ -54,7 +54,7 @@ $(document).ready(function () {
                 data: {'success': 'yes'}
             });
 
-            $('.writer').attr('ready', 'false');
+            $('.writerButton').attr('ready', 'false');
         }
     });
 });
