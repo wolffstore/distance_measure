@@ -102,7 +102,7 @@ function guiUpdater() {
 
             }
 
-            if (sensor3.distance < 20.0 || sensor2.distance || sensor1.distance) {
+            if (sensor3.distance < 20.0 || sensor2.distance< 20.0 || sensor1.distance< 20.0) {
                 var obj = document.createElement("audio");
                 obj.src = "/static/Beep.mp3";
                 obj.volume = 0.1;
