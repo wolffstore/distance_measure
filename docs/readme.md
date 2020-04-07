@@ -1,8 +1,7 @@
-1. Introduction
-===============
+# Introduction
 
-2. General Information
-======================
+## General Information
+
 
 In this section general information regarding the project are reported
 regarding the equipment, project organisation etc.
