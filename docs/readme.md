@@ -107,8 +107,7 @@ The components which were used during this phase were:
 In the following Picture 1, the reader is presented with a graphical
 representation of the connections between the above systems.
 
-![](./media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png"){width="5.0in"
-height="3.8958333333333335in"}
+![](./media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
 
 The next step was to achieve the above design and to write the necessary
 Python script in order to test the functionality of the sensor.
@@ -119,8 +118,7 @@ built in the Rasbpian Operating System. In the following snippet of
 code, the script is seeing along with comments which explain what each
 of the lines of code does.
 
-![](./media/media/image2.png){width="4.072916666666667in"
-height="5.0in"}
+![](./media/media/image2.png)
 
 The principal which is followed in order to calculate the distance using
 the sound speed is derived from the following formula:
@@ -138,8 +136,7 @@ The distance capacity that the HC-SR04 can measure varies from 2cm to
 Simultaneously, the team included the realisation of Picture 1 and a
 video which depicts the results of the aforementioned script.
 
-![](./media/media/image3.png){width="6.260415573053368in"
-height="4.6875in"}
+![](./media/media/image3.png)
 
 The next step of the experiment is to attempt 3 concurrent measurements
 of the distance and calculate its average in order to provide more
@@ -156,13 +153,12 @@ credible reading. Nevertheless, the team decided against this idea due
 to the fact that through experimentation it was found out that the
 differences in measurements are negligible.
 
-![](./media/media/image4.png){width="3.410416666666667in"
-height="3.045353237095363in"}In this step the team built the server and
+![](./media/media/image4.png)
+In this step the team built the server and
 client side of the application and performed tests with three ultrasonic
 sensors instead of one (see Picture 4 and 5).
 
-![](./media/media/image5.jpeg){width="3.122700131233596in"
-height="2.7416666666666667in"}
+![](./media/media/image5.jpeg)
 
 Expanding the python code from above the team developed the server side
 part of the application which would be deployed in the pre-mentioned
@@ -179,8 +175,7 @@ distance and compile a JSON file which can be retrieved and parsed by
 the client side of the application. An example of the pre-mentioned code
 can be seen in the following snippet (see Picture 6).
 
-![](./media/media/image6.png){width="3.1349693788276465in"
-height="3.898740157480315in"}
+![](./media/media/image6.png)
 
 On the other hand, the client side regarding this phase was developed
 using Java due to the student’s experience with it. The Graphical User
