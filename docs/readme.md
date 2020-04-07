@@ -1,6 +1,6 @@
 # Introduction
 
-## General Information
+## 2. General Information
 
 
 In this section general information regarding the project are reported
@@ -61,8 +61,7 @@ is supposed to work at least between 8 and 10 hours per week.
 In addition, the student was allowed to work in the premises of
 Wolfstrore Gmbh every Friday after the geo-meeting had taken place.
 
-3. Experimentation
-==================
+## 3. Experimentation
 
 In this chapter the different phases of the experiment are going to be
 analysed and explained by the authors of the report. The experiment was
@@ -192,7 +191,7 @@ with a high-pitched sound.
 The user can turn the application off whenever they wish just by
 pressing the Switch button on the GUI. Pictures of the setup and a
 demonstration video can be seen in the following
-[link](https://stichtingfontys-my.sharepoint.com/personal/872160_fontys_nl/_layouts/15/onedrive.aspx?csf=1&e=wtzShj&cid=76317bf5%2D7ae6%2D40d5%2Db7c1%2D2da9064d346e&FolderCTID=0x012000B2CA63EFDCF12A47AF1C9A2FE031546A&id=%2Fpersonal%2F872160%5Ffontys%5Fnl%2FDocuments%2Ffontys%2Fprojects%2FDigipro%2Fwolffstore%2F03%5Fstundenabrechnungen%5Fwolffstore%2FPhase%20two%20media).
+[link](videos/demo_video.mp4).
 
 3.3 Phase Three
 ---------------
@@ -320,7 +319,7 @@ reading changing their color based on the reading. If an object is too
 close the corresponding indication will turn red, change its message and
 emit a Beep sound. A demonstration of the pre-mentioned action can be
 witnessed in the following
-[video](https://stichtingfontys-my.sharepoint.com/personal/872160_fontys_nl/Documents/fontys/projects/Digipro/wolffstore/03_stundenabrechnungen_wolffstore/Phase%20Five%20Media/Phase4_video.mp4)
+[video](videos/Phase4_video.mp4)
 and the following Picture. In this case the hardware setup remained the
 same again.
 
