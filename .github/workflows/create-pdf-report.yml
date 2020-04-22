@@ -1,0 +1,17 @@
+name: Create PDF report
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: mkdir output
+      - uses: docker://dalibo/pandocker:latest
+        with: # needs a README in your repo root!
+          args: "README.md -o output/ppar-haskell-introduction.pdf --toc --pdf-engine=xelatex --template=./eisvogel.latex --listing"
+      - uses: actions/upload-artifact@master
+        with:
+          name: digipro-wolffstore-fontys-distance-measure.pdf
+          path: output
