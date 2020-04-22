@@ -2,12 +2,13 @@
 title: "Wolffstore - Digitalization of forklift trucks"
 author: [Fotios Alatas, Thomas Reiners, Marcel Reiners, René Wolff, Stefan Sobek]
 date: "2020-04-15"
-subject: "Haskell"
+subject: "Ultrasonic sensor based distance measurement mounted on forklift"
 keywords: [Fontys, Wolffstore, Digipro]
 lang: "en"
 titlepage: "true"
+titlepage-background: "media/Digipro_logo_2017_RGB.jpg"
 logo: "media/wolffstoregmbh.png"
-titlepage-rule-color: "400070"
+titlepage-rule-color: "fca800"
 ...
 
 # Abstract
@@ -365,10 +366,15 @@ The method *guiUpdater*() reads the file and update the pre-mentioned
 reading changing their color based on the reading. If an object is too
 close the corresponding indication will turn red, change its message and
 emit a Beep sound. A demonstration of the pre-mentioned action can be
-witnessed in the following
-[video](videos/Phase4_video.mp4)
+witnessed in the following [video](videos/Phase4_video.mp4)
+
 and the following Picture. In this case the hardware setup remained the
 same again.
 
 ![](media/media/image13.png){width="6.290559930008749in"
 height="6.5389610673665794in"}
+
+### References
+
+Note that you may have to goto the github-repository to see and or download all videos or source code or other material. 
+- [Wolffstore forklift distance measure project](https://github.com/wolffstore/distance_measure/)
