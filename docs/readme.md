@@ -1,3 +1,16 @@
+---
+title: "Digipro - Wolffstore GmbH and Fontys"
+author: [Fotis Alatas, Thomas Reiners, Marcel Reiners, Stefan Sobek]
+date: "2020-04-15"
+subject: "Haskell"
+keywords: [Fontys, Wolffstore, Digipro]
+lang: "en"
+titlepage: "true"
+logo: "media/fontyslogo.png"
+titlepage-rule-color: "400070"
+...
+
+
 # Introduction
 
 ## 2. General Information
