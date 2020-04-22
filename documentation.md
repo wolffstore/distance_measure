@@ -19,11 +19,9 @@ The project outcome should be a demonstration prototype to show that the system 
 Additionally a autonomous star-stop solution should be analysed. 
 The prototype should be the basis decision for further projects and investments of Wolffstore GmbH in this area. 
 
-The project objectives were mainly achieved. Standing out is of course the successful creation and testing of a sensor array based on a [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) platform, which is a fully working mini-computer equipped with ultrasonic-sensors. 
+The project objectives were achieved. Standing out is of course the successful creation and testing of a sensor array based on a [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) platform, which is a fully working mini-computer equipped with ultrasonic-sensors. 
 
 The results of the first tests on the prototype leads to the conclusion that the reaction times of the used ultrasonic-sensors are sufficient for the use case. 
-
-Anzumerken ist noch, dass die Planung vorsah die Plattform mit Sensoren auf einem Gabelstapler zu montieren und entsprechende Testszenarien und Messungen durchzuführen. Hierzu ist es auf Grund der Corona-Pandemie und entsprechenden Zugangsbeschränkungen Externer zum Lager nicht mehr gekommen. 
 
 Furthermore, should be mentioned that it was planned to mount the platform on the forklift und to test the system integrated in the storage hall and doing measures in the correct use case scenario. However, due to the corona-pandemic and the external access restrictions to the storage hall of Wolffstore GmbH the execution was not possible. 
 
@@ -40,7 +38,7 @@ Ziel des Projektes ist es einen Prototypen zu erstellen, welcher über Abstandss
 Mittels der Machbarkeitsstudie soll ein Demonstrator geschaffen werden, der darlegt welche Sensorik eingesetzt werden kann, um einen Mitarbeiter ein Signal zu senden, wenn dieser zu nahe an das Hochregallager heranfährt. Eine autonome Start-/Stop Lösung soll gleichermaßen analysiert werden.
 Der Demonstrator dient als Entscheidungsbasis für weitere Projekte und Investitionen der Wolffstore GmbH. 
 
-Die Projektziele wurden größtenteils erreicht. Herauszuheben ist die erfolgreiche Umsetzung einer Sensorik Plattform mittels eines [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), einem vollwertiger Miniplatinen-Rechner im Zusammenspiel mit mehreren Ultraschallsensoren.
+Die Projektziele wurden erreicht. Herauszuheben ist die erfolgreiche Umsetzung einer Sensorik Plattform mittels eines [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), einem vollwertiger Miniplatinen-Rechner im Zusammenspiel mit mehreren Ultraschallsensoren.
 
 Die Reaktionszeiten sowie die entsprechenden zu messbaren Abstände sind für den Anwendungsfall passend. 
 
