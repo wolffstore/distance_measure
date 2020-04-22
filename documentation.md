@@ -11,12 +11,8 @@ titlepage-rule-color: "400070"
 ...
 
 # Abstract
-
-Since 15 years Wolffstore GmbH is providing their customers in the area of "Onlinetrading and Fulfillment". In cooperation with medienpark.nettetal an intelligent forklift which is equipped with sensors for distance measuring should be developed. This forklift should provide the driver with all necessary information regarding the distance. Additionally this information should not only be displayed on conventional display, but also on Head-Up-Display which was attached to the forklift.    
-
+ 
 Ziel des Projektes ist es einen Prototypen zu erstellen, welcher über Abstandssensorik verfügt. Die Projektidee ergibt sich aus der Gegebenheit, dass die Mitarbeiter innerhalb der Wolffstore GmbH diverse Gabelstapler ohne Sensorik nutzen. Bei der Kommissionierung innerhalb der Hochregallager kommt es häufig vor, dass ein Mitarbeiter gegen das Hochregallager fährt und dadurch vorallem die Lagerregale sowie die sich darin befindende Waren beschädigt.   
-Mittels der Machbarkeitsstudie soll ein Demonstrator geschaffen werden, der darlegt welche Sensorik eingesetzt werden kann, um einen Mitarbeiter ein Signal zu senden, wenn dieser zu nahe an das Hochregallager heranfährt. Eine autonome Start-/Stop Lösung soll gleichermaßen analysiert werden.
-Der Demonstrator dient als Entscheidungsbasis für weitere Projekte und Investitionen der Wolffstore GmbH. 
 
 The main objective of the project is to create a prototype equipped with sensors for distance measuring. The idea was born due to the issue in the storage hall of Wolffstore GmbH, that forklifts pretty often hit the storage racks. The root cause of that is mainly that there is barely space between the racks, but also that drivers are often too fast. 
 The project outcome should be a demonstration prototype to show that the system can prevent the forklift from collisions with the storage racks or the goods in the racks. It should be found out which sensors could be used to effectively notify the driver of a too close approach to the racks. 
@@ -32,8 +28,6 @@ Anzumerken ist noch, dass die Planung vorsah die Plattform mit Sensoren auf eine
 Furthermore, should be mentioned that it was planned to mount the platform on the forklift und to test the system integrated in the storage hall and doing measures in the correct use case scenario. However, due to the corona-pandemic and the external access restrictions to the storage hall of Wolffstore GmbH the execution was not possible. 
 
 Due to the results of this project a decision was already made to continue with additional projects and investments in this direction. 
-
-Dazu sind die Komponenten weiterzuentwickeln, weitere Sensoriken anzubinden (z.B. RfiD-Erkennung, Kameras samt AI usw.) sind entsprechende Messungen durchzuführen bezüglich Reaktionszeit der Sensorik, Messungen und Validierung sowie Kalibrierung der Sensorik, Hard- und Software, sowie die Erweiterung des Anwendungsscenarios von **Sicherung der Einfahrt eines Gabelstapler zwischen Regalen** zu weiteren wie **Sicherung der Durchfahrt eines Gabelstaplers zwischen Regalen**. Dies erfordert mehr Sensorik (zusätzliche seitliche Sensorik) die Anpassung des Integrationssystems auf dem Gabelstapler (Einbindung Sensorik in Hardware und Softwaresteuerung) und die Planung und Entwicklung von visuellen und akustischen Warnsystemen auf dem Gabelstapler sowie ferner einer Not-ausschaltung bei Kollision. 
 
 The objectives of the future projects will be to develop additional components, add more and further sensors (e.g. RfID, Cameras with AI asf.), doing further measurements regarding reaction time of the sensors, doing measurements and valdiation as well as calibration of the sensors, hard- and software regarding the the reaction times. Furthmore additional scenarios should be investigated and solved like **Securing entering of the space between storage racks** or **Securing the drive of the forklift between storage racks**. 
 More sensors, e.g. side sensors or sensors mounted on the racks are necessary as well as the integration of the whole system (integrate sensors with hard- and software). Important is also the planning and development of a visual and audio warning system on the forklift as well as an automatic emergency stop on collision. 
