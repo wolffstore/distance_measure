@@ -6,7 +6,7 @@ subject: "Haskell"
 keywords: [Fontys, Wolffstore, Digipro]
 lang: "en"
 titlepage: "true"
-logo: "media/wolffstore_gmbh.png"
+logo: "media/wolffstoregmbh.png"
 titlepage-rule-color: "400070"
 ...
 
