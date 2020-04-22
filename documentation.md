@@ -371,8 +371,7 @@ witnessed in the following [video](videos/Phase4_video.mp4)
 and the following Picture. In this case the hardware setup remained the
 same again.
 
-![](media/media/image13.png){width="6.290559930008749in"
-height="6.5389610673665794in"}
+![Final UI-screen](media/media/image13.png)
 
 ### References
 
