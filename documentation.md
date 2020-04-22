@@ -358,9 +358,9 @@ update method would write the file and another method would be fired
 ever 100ms (0.1secs) which will read the file and update the UI. This
 can be seen in the two following snippets of code.
 
-![](media/media/image11.png){width="3.902083333333333in"
-height="2.558333333333333in"}![](media/media/image12.png){width="3.405890201224847in"
-height="2.5844160104986877in"}
+![guiupdater](media/media/image11.png)
+
+![post request](media/media/image12.png)
 
 The method *guiUpdater*() reads the file and update the pre-mentioned
 reading changing their color based on the reading. If an object is too
