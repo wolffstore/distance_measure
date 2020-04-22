@@ -1,20 +1,64 @@
 ---
-title: "Digipro - Wolffstore GmbH and Fontys"
-author: [Fotis Alatas, Thomas Reiners, Marcel Reiners, Stefan Sobek]
+title: "Wolffstore - Digitalization of forklift trucks"
+author: [Fotios Alatas, Thomas Reiners, Marcel Reiners, René Wolff, Stefan Sobek]
 date: "2020-04-15"
 subject: "Haskell"
 keywords: [Fontys, Wolffstore, Digipro]
 lang: "en"
 titlepage: "true"
-logo: "media/fontyslogo.png"
+logo: "media/wolffstore_gmbh.png"
 titlepage-rule-color: "400070"
 ...
 
+# Abstract
+
+Since 15 years Wolffstore GmbH is providing their customers in the area of "Onlinetrading and Fulfillment". In cooperation with medienpark.nettetal an intelligent forklift which is equipped with sensors for distance measuring should be developed. This forklift should provide the driver with all necessary information regarding the distance. Additionally this information should not only be displayed on conventional display, but also on Head-Up-Display which was attached to the forklift.    
+
+Ziel des Projektes ist es einen Prototypen zu erstellen, welcher über Abstandssensorik verfügt. Die Projektidee ergibt sich aus der Gegebenheit, dass die Mitarbeiter innerhalb der Wolffstore GmbH diverse Gabelstapler ohne Sensorik nutzen. Bei der Kommissionierung innerhalb der Hochregallager kommt es häufig vor, dass ein Mitarbeiter gegen das Hochregallager fährt und dadurch vorallem die Lagerregale sowie die sich darin befindende Waren beschädigt.   
+Mittels der Machbarkeitsstudie soll ein Demonstrator geschaffen werden, der darlegt welche Sensorik eingesetzt werden kann, um einen Mitarbeiter ein Signal zu senden, wenn dieser zu nahe an das Hochregallager heranfährt. Eine autonome Start-/Stop Lösung soll gleichermaßen analysiert werden.
+Der Demonstrator dient als Entscheidungsbasis für weitere Projekte und Investitionen der Wolffstore GmbH. 
+
+The main objective of the project is to create a prototype equipped with sensors for distance measuring. The idea was born due to the issue in the storage hall of Wolffstore GmbH, that forklifts pretty often hit the storage racks. The root cause of that is mainly that there is barely space between the racks, but also that drivers are often too fast. 
+The project outcome should be a demonstration prototype to show that the system can prevent the forklift from collisions with the storage racks or the goods in the racks. It should be found out which sensors could be used to effectively notify the driver of a too close approach to the racks. 
+Additionally a autonomous star-stop solution should be analysed. 
+The prototype should be the basis decision for further projects and investments of Wolffstore GmbH in this area. 
+
+The project objectives were mainly achieved. Standing out is of course the successful creation and testing of a sensor array based on a [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/) platform, which is a fully working mini-computer equipped with ultrasonic-sensors. 
+
+The results of the first tests on the prototype leads to the conclusion that the reaction times of the used ultrasonic-sensors are sufficient for the use case. 
+
+Anzumerken ist noch, dass die Planung vorsah die Plattform mit Sensoren auf einem Gabelstapler zu montieren und entsprechende Testszenarien und Messungen durchzuführen. Hierzu ist es auf Grund der Corona-Pandemie und entsprechenden Zugangsbeschränkungen Externer zum Lager nicht mehr gekommen. 
+
+Furthermore, should be mentioned that it was planned to mount the platform on the forklift und to test the system integrated in the storage hall and doing measures in the correct use case scenario. However, due to the corona-pandemic and the external access restrictions to the storage hall of Wolffstore GmbH the execution was not possible. 
+
+Due to the results of this project a decision was already made to continue with additional projects and investments in this direction. 
+
+Dazu sind die Komponenten weiterzuentwickeln, weitere Sensoriken anzubinden (z.B. RfiD-Erkennung, Kameras samt AI usw.) sind entsprechende Messungen durchzuführen bezüglich Reaktionszeit der Sensorik, Messungen und Validierung sowie Kalibrierung der Sensorik, Hard- und Software, sowie die Erweiterung des Anwendungsscenarios von **Sicherung der Einfahrt eines Gabelstapler zwischen Regalen** zu weiteren wie **Sicherung der Durchfahrt eines Gabelstaplers zwischen Regalen**. Dies erfordert mehr Sensorik (zusätzliche seitliche Sensorik) die Anpassung des Integrationssystems auf dem Gabelstapler (Einbindung Sensorik in Hardware und Softwaresteuerung) und die Planung und Entwicklung von visuellen und akustischen Warnsystemen auf dem Gabelstapler sowie ferner einer Not-ausschaltung bei Kollision. 
+
+The objectives of the future projects will be to develop additional components, add more and further sensors (e.g. RfID, Cameras with AI asf.), doing further measurements regarding reaction time of the sensors, doing measurements and valdiation as well as calibration of the sensors, hard- and software regarding the the reaction times. Furthmore additional scenarios should be investigated and solved like **Securing entering of the space between storage racks** or **Securing the drive of the forklift between storage racks**. 
+More sensors, e.g. side sensors or sensors mounted on the racks are necessary as well as the integration of the whole system (integrate sensors with hard- and software). Important is also the planning and development of a visual and audio warning system on the forklift as well as an automatic emergency stop on collision. 
+
+# Zusammenfassung
+
+Bereits seit über 15 Jahren begleitet die Wolffstore GmbH ihre Kunden rund um das Thema „Onlinehandel“ & „Fulfillment“ europaweit. In Kooperation mit dem medienpark.nettetal soll ein intelligenter Gabelstapler geschaffen werden, der Abstandsinformationen (Sensorik) innerhalb eines Hochregallagers an den Fahrer weitergibt. Zusätzlich wird an einer Lösung gearbeitet, die Informationen nicht auf einem konventionellen Display angezeigt, sondern auf einem HeadUpDiplay, welches auf dem Gabelstapler verbaut ist.
+
+Ziel des Projektes ist es einen Prototypen zu erstellen, welcher über Abstandssensorik verfügt. Die Projektidee ergibt sich aus der Gegebenheit, dass die Mitarbeiter innerhalb der Wolffstore GmbH diverse Gabelstapler ohne Sensorik nutzen. Bei der Kommissionierung innerhalb der Hochregallager kommt es häufig vor, dass ein Mitarbeiter gegen das Hochregallager fährt und dadurch vorallem die Lagerregale sowie die sich darin befindende Waren beschädigt.   
+Mittels der Machbarkeitsstudie soll ein Demonstrator geschaffen werden, der darlegt welche Sensorik eingesetzt werden kann, um einen Mitarbeiter ein Signal zu senden, wenn dieser zu nahe an das Hochregallager heranfährt. Eine autonome Start-/Stop Lösung soll gleichermaßen analysiert werden.
+Der Demonstrator dient als Entscheidungsbasis für weitere Projekte und Investitionen der Wolffstore GmbH. 
+
+Die Projektziele wurden größtenteils erreicht. Herauszuheben ist die erfolgreiche Umsetzung einer Sensorik Plattform mittels eines [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), einem vollwertiger Miniplatinen-Rechner im Zusammenspiel mit mehreren Ultraschallsensoren.
+
+Die Reaktionszeiten sowie die entsprechenden zu messbaren Abstände sind für den Anwendungsfall passend. 
+
+Anzumerken ist noch, dass die Planung vorsah die Plattform mit Sensoren auf einem Gabelstapler zu montieren und entsprechende Testszenarien und Messungen durchzuführen. Hierzu ist es auf Grund der Corona-Pandemie und entsprechenden Zugangsbeschränkungen Externer zum Lager nicht mehr gekommen. 
+
+Anhand der Ergebnisse ist bereits von der Wolffstore GmbH ein Folgeprojekt geplant.
+
+Dazu sind die Komponenten weiterzuentwickeln, weitere Sensoriken anzubinden (z.B. RfiD-Erkennung, Kameras samt AI usw.) sind entsprechende Messungen durchzuführen bezüglich Reaktionszeit der Sensorik, Messungen und Validierung sowie Kalibrierung der Sensorik, Hard- und Software, sowie die Erweiterung des Anwendungsscenarios von **Sicherung der Einfahrt eines Gabelstapler zwischen Regalen** zu weiteren wie **Sicherung der Durchfahrt eines Gabelstaplers zwischen Regalen**. Dies erfordert mehr Sensorik (zusätzliche seitliche Sensorik) die Anpassung des Integrationssystems auf dem Gabelstapler (Einbindung Sensorik in Hardware und Softwaresteuerung) und die Planung und Entwicklung von visuellen und akustischen Warnsystemen auf dem Gabelstapler sowie ferner einer Not-ausschaltung bei Kollision. 
 
 # Introduction
 
 ## 2. General Information
-
 
 In this section general information regarding the project are reported
 regarding the equipment, project organisation etc.
@@ -48,8 +92,7 @@ Raspbian OS (Operating System).
 
 The former was accomplished by following the step-by-step video
 instructions in the following
-[video](https://www.youtube.com/watch?v=TEuVU6id_mI) by *PDUESP*
-(Youtube channel).
+[*PDUESP* youtube video](https://www.youtube.com/watch?v=TEuVU6id_mI) by .
 
 Regarding the installation of the operating system this was achieved
 with the help of the NOOBS installer which is the recommended way of
@@ -61,9 +104,7 @@ which were found in the official website.
 -------------------------
 
 The project is a collaboration between the senior management of
-Wolfstore GmbH (Marcel Reiners and Thomas Reiners) and Fontys Venlo
-University of Applied Sciences which was represented by Mr. Stefan Sobek
-who is the project’s coordinator and a student Fotios Alatas.
+Wolffstore GmbH (Marcel Reiners and Thomas Reiners) as well as one of the employees René Wolff and Fontys Venlo University of Applied Sciences which was represented by Mr. Stefan Sobek who is the project manager and a student assisstant Fotios Alatas.
 
 The project does not have a standardised daily workload. Nevertheless,
 there is always a geo-meeting every Friday where the pre-mentioned
@@ -119,7 +160,7 @@ The components which were used during this phase were:
 In the following Picture 1, the reader is presented with a graphical
 representation of the connections between the above systems.
 
-![](media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
+![snnsor board connection](media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
 
 The next step was to achieve the above design and to write the necessary
 Python script in order to test the functionality of the sensor.
@@ -130,12 +171,12 @@ built in the Rasbpian Operating System. In the following snippet of
 code, the script is seeing along with comments which explain what each
 of the lines of code does.
 
-![](media/media/image2.png)
+![python script reading sensor data](media/media/image2.png)
 
 The principal which is followed in order to calculate the distance using
 the sound speed is derived from the following formula:
 
-**S(speed)** = **d(distance)** / **t(time)**
+> **S(speed)** = **d(distance)** / **t(time)**
 
 The sensor sends pulses and receives them thus calculating the time
 between these pulses. Moreover, using the speed of sound and the
@@ -148,7 +189,7 @@ The distance capacity that the HC-SR04 can measure varies from 2cm to
 Simultaneously, the team included the realisation of Picture 1 and a
 video which depicts the results of the aforementioned script.
 
-![](media/media/image3.png)
+![test setup with raspberry pi 4 and one sensor](media/media/image3.png)
 
 The next step of the experiment is to attempt 3 concurrent measurements
 of the distance and calculate its average in order to provide more
@@ -165,12 +206,13 @@ credible reading. Nevertheless, the team decided against this idea due
 to the fact that through experimentation it was found out that the
 differences in measurements are negligible.
 
-![](media/media/image4.png)
+![three sensor setup design](media/media/image4.png)
+
 In this step the team built the server and
 client side of the application and performed tests with three ultrasonic
 sensors instead of one (see Picture 4 and 5).
 
-![](media/media/image5.jpeg)
+![three sensor connected](media/media/image5.jpeg)
 
 Expanding the python code from above the team developed the server side
 part of the application which would be deployed in the pre-mentioned
