@@ -119,7 +119,7 @@ The components which were used during this phase were:
 In the following Picture 1, the reader is presented with a graphical
 representation of the connections between the above systems.
 
-![](./media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
+![](media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
 
 The next step was to achieve the above design and to write the necessary
 Python script in order to test the functionality of the sensor.
@@ -130,7 +130,7 @@ built in the Rasbpian Operating System. In the following snippet of
 code, the script is seeing along with comments which explain what each
 of the lines of code does.
 
-![](./media/media/image2.png)
+![](media/media/image2.png)
 
 The principal which is followed in order to calculate the distance using
 the sound speed is derived from the following formula:
@@ -148,7 +148,7 @@ The distance capacity that the HC-SR04 can measure varies from 2cm to
 Simultaneously, the team included the realisation of Picture 1 and a
 video which depicts the results of the aforementioned script.
 
-![](./media/media/image3.png)
+![](media/media/image3.png)
 
 The next step of the experiment is to attempt 3 concurrent measurements
 of the distance and calculate its average in order to provide more
@@ -165,12 +165,12 @@ credible reading. Nevertheless, the team decided against this idea due
 to the fact that through experimentation it was found out that the
 differences in measurements are negligible.
 
-![](./media/media/image4.png)
+![](media/media/image4.png)
 In this step the team built the server and
 client side of the application and performed tests with three ultrasonic
 sensors instead of one (see Picture 4 and 5).
 
-![](./media/media/image5.jpeg)
+![](media/media/image5.jpeg)
 
 Expanding the python code from above the team developed the server side
 part of the application which would be deployed in the pre-mentioned
@@ -187,7 +187,7 @@ distance and compile a JSON file which can be retrieved and parsed by
 the client side of the application. An example of the pre-mentioned code
 can be seen in the following snippet (see Picture 6).
 
-![](./media/media/image6.png)
+![](media/media/image6.png)
 
 On the other hand, the client side regarding this phase was developed
 using Java due to the student’s experience with it. The Graphical User
@@ -256,7 +256,7 @@ end would read the measurements and return an html page with a red box
 distance was more than 1,5 meters. The demo code for this can be seen in
 the below snippet.
 
-![](./media/media/image7.png){width="6.268055555555556in"
+![](media/media/image7.png){width="6.268055555555556in"
 height="2.3069444444444445in"}
 
 This though was not enough as the browser needed constant refreshing in
@@ -268,7 +268,7 @@ order to incorporate the new features and the new architecture. This
 “grunt” work dominated Phase four while the team decided what will be
 the best way to write and read to the file.
 
-![](./media/media/image8.png){width="3.655844269466317in"
+![](media/media/image8.png){width="3.655844269466317in"
 height="0.7829319772528434in"}
 
 The concept that the team came up to was that a separate thread that
@@ -298,7 +298,7 @@ initial readings of the local file. When the application starts an
 initial reading is taking place in order to calibrate the sensors and
 their corresponding readings.
 
-![](./media/media/image9.png){width="6.268055555555556in"
+![](media/media/image9.png){width="6.268055555555556in"
 height="3.816666666666667in"}
 
 The next step was to implement the separate thread which is going to
@@ -308,7 +308,7 @@ explained later) in order to update the file from which the application
 reads. In this method a new thread is created and the task *writeFile()*
 is executed. A snippet of this code can be seen below.
 
-![](./media/media/image10.png){width="3.2857141294838144in"
+![](media/media/image10.png){width="3.2857141294838144in"
 height="1.0090846456692912in"}
 
 Now that the front end skeleton was over and the back-end
@@ -323,8 +323,8 @@ update method would write the file and another method would be fired
 ever 100ms (0.1secs) which will read the file and update the UI. This
 can be seen in the two following snippets of code.
 
-![](./media/media/image11.png){width="3.902083333333333in"
-height="2.558333333333333in"}![](./media/media/image12.png){width="3.405890201224847in"
+![](media/media/image11.png){width="3.902083333333333in"
+height="2.558333333333333in"}![](media/media/image12.png){width="3.405890201224847in"
 height="2.5844160104986877in"}
 
 The method *guiUpdater*() reads the file and update the pre-mentioned
@@ -336,5 +336,5 @@ witnessed in the following
 and the following Picture. In this case the hardware setup remained the
 same again.
 
-![](./media/media/image13.png){width="6.290559930008749in"
+![](media/media/image13.png){width="6.290559930008749in"
 height="6.5389610673665794in"}

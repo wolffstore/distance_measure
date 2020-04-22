@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d1a568d-5f82-4b1f-bce6-09e9ecf636ff" name="Default Changelist" comment="" />
+    <list default="true" id="5d1a568d-5f82-4b1f-bce6-09e9ecf636ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/fontyslogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/create-pdf-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/create-pdf-report.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image10.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image11.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image12.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image13.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image3.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image4.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image6.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image7.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image8.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/media/media/image9.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +49,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YtrLD0mlcl3MHDFjjxa8HpcWau" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,14 +62,31 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\alata\Documents\sandboxes\flaskSandbox\static" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="flaskSandbox" type="Python.FlaskServer">
@@ -72,11 +120,23 @@
       <workItem from="1583914314986" duration="15967000" />
       <workItem from="1583950326658" duration="1482000" />
       <workItem from="1584029401493" duration="615000" />
+      <workItem from="1587553056825" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583931395206">
