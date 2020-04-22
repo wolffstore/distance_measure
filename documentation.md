@@ -6,7 +6,6 @@ subject: "Ultrasonic sensor based distance measurement mounted on forklift"
 keywords: [Fontys, Wolffstore, Digipro]
 lang: "en"
 titlepage: "true"
-titlepage-background: "media/Digiprologo2017RGB.jpg"
 logo: "media/wolffstoregmbh.png"
 titlepage-rule-color: "fca800"
 ...
