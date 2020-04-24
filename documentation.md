@@ -53,6 +53,22 @@ Dazu sind die Komponenten weiterzuentwickeln, weitere Sensoriken anzubinden (z.B
 
 ## Problem
 
+The current situation in the storage hall of Wolffstore GmbH is, that while processing picking on orders for customers, forklifts pretty often hit the storage racks when driving into or out of the space between the storage racks. They damage the pillars of the storage racks at the bottom. 
+ 
+![Damage storage rack](media/media/storage-rack01.png)
+ 
+ The root cause of that is mainly that there is barely space between the racks, but also that drivers are often too fast. 
+
+![Damage storage rack](media/media/storage-rack02.png)
+
+This structural damage causes a lot of costs for Wolffstore GmbH, as these storage racks needs to be inspected and regarding the result of the inspection replaced. Wolffstore GmbH has a specific storage rack setup and types, so each hit of a rack could lead to a high cost replacement. 
+
+## Solution
+
+Therefore the idea is to create a smart forklift solution. Wolffstore GmbH is, for indiviual product picking orders, using a smaller forklift to drive between the storage racks. The employees then pick according to the order by lifting themselves up to the products which are stored higher in the rack. 
+To prevent storage rack pillar collisions, a smart forklift should in first place warn the driver early enough if approaching a pillar to so that he can react, or at second place assure to prevent the collision by emergency stopping the forklift. 
+Optional use cases are to provide the forklift with head-up-displays to show these warning and collision informations, but also for providing additional information regarding the picking process of the company. 
+
 ## General Information
 
 In this section general information regarding the project are reported
@@ -236,6 +252,8 @@ demonstration video can be seen in the following video:
 
 [![Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo](https://i9.ytimg.com/vi/T0gxpcj9onU/mq2.jpg?sqp=CJ2_ivUF&rs=AOn4CLBUuVRHoDPYF0eW7M7CEfxiB4R72g)](https://youtu.be/T0gxpcj9onU "Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo")
 
+[Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo](https://youtu.be/T0gxpcj9onU "Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo")
+
 3.3 Phase Three
 ---------------
 
@@ -371,6 +389,8 @@ same again.
 For the final solution see the following Video:
 
 [![Video - Wolffstore - Digipro project - digitalisation of a forklift](https://i9.ytimg.com/vi/gjDBDAQasPM/mq2.jpg?sqp=CL64ivUF&rs=AOn4CLAO2R3xGLJ1kOj6ue34B_SoNBfWXg)](https://youtu.be/gjDBDAQasPM "Video - Wolffstore - Digipro project - digitalisation of a forklift")
+
+- [Video - Wolffstore - Digipro project - digitalisation of a forklift](https://youtu.be/gjDBDAQasPM "Video - Wolffstore - Digipro project - digitalisation of a forklift")
 
 ### References
 
