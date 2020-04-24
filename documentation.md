@@ -12,9 +12,10 @@ titlepage-rule-color: "fca800"
 
 # Abstract
  
-Ziel des Projektes ist es einen Prototypen zu erstellen, welcher über Abstandssensorik verfügt. Die Projektidee ergibt sich aus der Gegebenheit, dass die Mitarbeiter innerhalb der Wolffstore GmbH diverse Gabelstapler ohne Sensorik nutzen. Bei der Kommissionierung innerhalb der Hochregallager kommt es häufig vor, dass ein Mitarbeiter gegen das Hochregallager fährt und dadurch vorallem die Lagerregale sowie die sich darin befindende Waren beschädigt.   
+Since 15 years Wolffstore GmbH is providing their customers in the area of "Onlinetrading and Fulfillment". In cooperation with medienpark.nettetal an intelligent forklift which is equipped with sensors for distance measuring should be developed. This forklift should provide the driver with all necessary information regarding the distance. Additionally this information should not only be displayed on conventional display, but also on Head-Up-Display which was attached to the forklift.    
 
 The main objective of the project is to create a prototype equipped with sensors for distance measuring. The idea was born due to the issue in the storage hall of Wolffstore GmbH, that forklifts pretty often hit the storage racks. The root cause of that is mainly that there is barely space between the racks, but also that drivers are often too fast. 
+
 The project outcome should be a demonstration prototype to show that the system can prevent the forklift from collisions with the storage racks or the goods in the racks. It should be found out which sensors could be used to effectively notify the driver of a too close approach to the racks. 
 Additionally a autonomous star-stop solution should be analysed. 
 The prototype should be the basis decision for further projects and investments of Wolffstore GmbH in this area. 
