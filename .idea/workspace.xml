@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1a568d-5f82-4b1f-bce6-09e9ecf636ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/fontyslogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/create-pdf-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/create-pdf-report.yml" afterDir="false" />
+    <list default="true" id="5d1a568d-5f82-4b1f-bce6-09e9ecf636ff" name="Default Changelist" comment="rename">
+      <change afterPath="$PROJECT_DIR$/media/Phase4_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/demo_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/digipro-wolffstore-final-video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/test.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image10.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image11.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image12.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image13.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image3.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image4.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image6.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image7.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image8.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/media/media/image9.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/media/image9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +36,7 @@
     <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +58,6 @@
   <component name="ProjectId" id="1YtrLD0mlcl3MHDFjjxa8HpcWau" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -65,28 +67,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/media/media" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\alata\Documents\sandboxes\flaskSandbox\static" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="flaskSandbox" type="Python.FlaskServer">
@@ -120,12 +112,99 @@
       <workItem from="1583914314986" duration="15967000" />
       <workItem from="1583950326658" duration="1482000" />
       <workItem from="1584029401493" duration="615000" />
-      <workItem from="1587553056825" duration="155000" />
+      <workItem from="1587553056825" duration="2757000" />
+      <workItem from="1587559643060" duration="159000" />
+      <workItem from="1587559843616" duration="7602000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed path - need to be in root">
+      <created>1587553226347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587553226347</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed path - need to be in root">
+      <created>1587563020086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563020087</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rename">
+      <created>1587563279115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563279115</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rename">
+      <created>1587563536554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563536554</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove german from abstract">
+      <created>1587563592611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563592611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1587563940498</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563940498</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rename">
+      <created>1587564525855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587564525855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rename">
+      <created>1587564573541</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587564573541</updated>
+    </task>
+    <task id="LOCAL-00009" summary="final ui fix">
+      <created>1587564601804</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587564601804</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rename">
+      <created>1587564943981</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587564943982</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bg">
+      <created>1587565104258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587565104258</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed english">
+      <created>1587714650082</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587714650082</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,12 +216,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed path - need to be in root" />
+    <MESSAGE value="remove german from abstract" />
+    <MESSAGE value="update" />
+    <MESSAGE value="final ui fix" />
+    <MESSAGE value="rename" />
+    <MESSAGE value="bg" />
+    <MESSAGE value="fixed english" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed english" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2336" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587716637315">
+      <screen x="1680" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2336" y="400" key="#com.intellij.fileTypes.FileTypeChooser/1680.23.1920.1177/0.23.1680.989@1680.23.1920.1177" timestamp="1587716637315" />
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583931395206">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1583931395206" />
+    <state x="2320" y="194" key="CommitChangelistDialog2" timestamp="1587714649926">
+      <screen x="1680" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2320" y="194" key="CommitChangelistDialog2/1680.23.1920.1177/0.23.1680.989@1680.23.1920.1177" timestamp="1587714649926" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1583951651009">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -175,20 +273,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1583935608290" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1583775252007">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="2266" y="311" key="SettingsEditor" timestamp="1587559920709">
+      <screen x="1680" y="23" width="1920" height="1177" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1583775252007" />
+    <state x="2266" y="311" key="SettingsEditor/1680.23.1920.1177/0.23.1680.989@1680.23.1920.1177" timestamp="1587559920709" />
+    <state x="2245" y="326" key="Vcs.Push.Dialog.v2" timestamp="1587565109583">
+      <screen x="1680" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2245" y="326" key="Vcs.Push.Dialog.v2/1680.23.1920.1177/0.23.1680.989@1680.23.1920.1177" timestamp="1587565109583" />
     <state x="981" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1583950328140">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="981" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1583950328140" />
+    <state x="2315" y="384" key="git4idea.merge.GitPullDialog" timestamp="1587714444547">
+      <screen x="1680" y="23" width="1920" height="1177" />
+    </state>
+    <state x="2315" y="384" key="git4idea.merge.GitPullDialog/1680.23.1920.1177/0.23.1680.989@1680.23.1920.1177" timestamp="1587714444547" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583915581252">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1583915581252" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flaskSandbox$flaskSandbox.coverage" NAME="flaskSandbox Coverage Results" MODIFIED="1583951651003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

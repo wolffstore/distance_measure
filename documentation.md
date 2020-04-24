@@ -51,12 +51,14 @@ Dazu sind die Komponenten weiterzuentwickeln, weitere Sensoriken anzubinden (z.B
 
 # Introduction
 
-## 2. General Information
+## Problem
+
+## General Information
 
 In this section general information regarding the project are reported
 regarding the equipment, project organisation etc.
 
-2.1. Equipment
+Equipment
 --------------
 
 In order to execute the desired experiment, the team used the following
@@ -75,7 +77,7 @@ pre-mentioned, equipment was provided by the Wolfstore GmbH and was
 given to the team for experimentation along with access to the premises
 for testing and meetings.
 
-2.2. Raspberry Pi 4 assembly
+Raspberry Pi 4 assembly
 ----------------------------
 
 As it was mentioned already in the above section a core part of the
@@ -93,7 +95,7 @@ installing the Raspbian OS in the corresponding Pi according to the
 [instructions](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
 which were found in the official website.
 
-2.3. Project Organisation
+Project Organisation
 -------------------------
 
 The project is a collaboration between the senior management of
@@ -108,7 +110,7 @@ is supposed to work at least between 8 and 10 hours per week.
 In addition, the student was allowed to work in the premises of
 Wolfstrore Gmbh every Friday after the geo-meeting had taken place.
 
-## 3. Experimentation
+## Experimentation
 
 In this chapter the different phases of the experiment are going to be
 analysed and explained by the authors of the report. The experiment was
@@ -120,15 +122,12 @@ project was explained to the student and to the Wolfstore senior team in
 order to “paint” a clear picture of what needs to be built thus starting
 Phase 1 of the project.
 
-3.1 Phase One
+Phase One
 -------------
 
 During this phase the student had to setup the equipment and conduct a
 small initial research in order to understand the required technologies
 due to the fact that he did not had previous experience with them.
-
-The setting up of the equipment was explained in section 2.2 and will
-not be repeated in the following chapters.
 
 Having finished with the raspberry pi assemble and the operating system
 installation the first experiment was set up. The experiment needed to
@@ -139,21 +138,16 @@ between the sensor and any object that would be placed in front.
 The components which were used during this phase were:
 
 -   Raspberry Pi 4
-
 -   Breadboard
-
 -   1k and 2k Ohm resistors
-
 -   5 connection cables (4 male-female and 1 male-male)
-
 -   1 ultrasonic distance sensor (HC-SR04)
-
 -   Conventional monitor, mouse and keyboard
 
 In the following Picture 1, the reader is presented with a graphical
 representation of the connections between the above systems.
 
-![snnsor board connection](media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
+![sensor board connection](media/media/image1.png "https://pi.lbbcdn.com/wp-content/uploads/2018/03/Distance-Sensor-Fritz.png")
 
 The next step was to achieve the above design and to write the necessary
 Python script in order to test the functionality of the sensor.
@@ -190,7 +184,7 @@ credible results. In addition, it was decided to build a GUI which will
 interact with the user and depict the result in order to provide a
 better user experience.
 
-3.2 Phase Two
+Phase Two
 -------------
 
 As it was already mentioned above the next would try to perform three
@@ -220,9 +214,9 @@ pin numbers in which are connected on the Raspberry Pi.
 Then using the above method, the app would be able to retrieve the
 distance and compile a JSON file which can be retrieved and parsed by
 the client side of the application. An example of the pre-mentioned code
-can be seen in the following snippet (see Picture 6).
+can be seen in the following snippet.
 
-![](media/media/image6.png)
+![Distances](media/media/image6.png)
 
 On the other hand, the client side regarding this phase was developed
 using Java due to the student’s experience with it. The Graphical User
@@ -238,8 +232,9 @@ with a high-pitched sound.
 
 The user can turn the application off whenever they wish just by
 pressing the Switch button on the GUI. Pictures of the setup and a
-demonstration video can be seen in the following
-[link](videos/demo_video.mp4).
+demonstration video can be seen in the following video: 
+
+[![Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo](https://i9.ytimg.com/vi/T0gxpcj9onU/mq2.jpg?sqp=CJ2_ivUF&rs=AOn4CLBUuVRHoDPYF0eW7M7CEfxiB4R72g)](https://youtu.be/T0gxpcj9onU "Video - Wolffstore - Digipro project - digitalisation of a forklift - first demo")
 
 3.3 Phase Three
 ---------------
@@ -291,8 +286,7 @@ end would read the measurements and return an html page with a red box
 distance was more than 1,5 meters. The demo code for this can be seen in
 the below snippet.
 
-![](media/media/image7.png){width="6.268055555555556in"
-height="2.3069444444444445in"}
+![play sound on short distance](media/media/image7.png)
 
 This though was not enough as the browser needed constant refreshing in
 order to give constant measurements. This was solved by integrating
@@ -303,14 +297,13 @@ order to incorporate the new features and the new architecture. This
 “grunt” work dominated Phase four while the team decided what will be
 the best way to write and read to the file.
 
-![](media/media/image8.png){width="3.655844269466317in"
-height="0.7829319772528434in"}
+![visual warning](media/media/image8.png)
 
 The concept that the team came up to was that a separate thread that
 would run in parallel with the main application thread will conduct the
 sensors measurements and the writing in a local *.json* file.
 
-3.5 Phase Five
+Phase Five
 --------------
 
 As it was already mentioned above the solution that was proposed in
@@ -333,8 +326,7 @@ initial readings of the local file. When the application starts an
 initial reading is taking place in order to calibrate the sensors and
 their corresponding readings.
 
-![](media/media/image9.png){width="6.268055555555556in"
-height="3.816666666666667in"}
+![frontend code](media/media/image9.png)
 
 The next step was to implement the separate thread which is going to
 execute the recordings in the back end. The endpoint of this action is
@@ -343,8 +335,7 @@ explained later) in order to update the file from which the application
 reads. In this method a new thread is created and the task *writeFile()*
 is executed. A snippet of this code can be seen below.
 
-![](media/media/image10.png){width="3.2857141294838144in"
-height="1.0090846456692912in"}
+![api routing](media/media/image10.png)
 
 Now that the front end skeleton was over and the back-end
 functionalities implemented the application needed a middle man which
@@ -366,14 +357,27 @@ The method *guiUpdater*() reads the file and update the pre-mentioned
 reading changing their color based on the reading. If an object is too
 close the corresponding indication will turn red, change its message and
 emit a Beep sound. A demonstration of the pre-mentioned action can be
-witnessed in the following [video](videos/Phase4_video.mp4)
+witnessed in the following 
+
+[![Video - Wolffstore - Digipro project - digitalisation of a forklift](https://i9.ytimg.com/vi/gd7IPxp6rRY/mq2.jpg?sqp=COHEivUF&rs=AOn4CLBRhfPYP9-mlppp8Z9kreovYWFYVQ)](https://youtu.be/gd7IPxp6rRY "Video - Wolffstore - Digipro project - digitalisation of a forklift - UI Updates")
 
 and the following Picture. In this case the hardware setup remained the
 same again.
 
 ![Final UI-screen](media/media/image13.png)
 
+## Final Video 
+
+For the final solution see the following Video:
+
+[![Video - Wolffstore - Digipro project - digitalisation of a forklift](https://i9.ytimg.com/vi/gjDBDAQasPM/mq2.jpg?sqp=CL64ivUF&rs=AOn4CLAO2R3xGLJ1kOj6ue34B_SoNBfWXg)](https://youtu.be/gjDBDAQasPM "Video - Wolffstore - Digipro project - digitalisation of a forklift")
+
 ### References
+
+[You can use numbers for reference-style link definitions][Wolffstore]
 
 Note that you may have to goto the github-repository to see and or download all videos or source code or other material. 
 - [Wolffstore forklift distance measure project](https://github.com/wolffstore/distance_measure/)
+- [Video - Wolffstore - Digipro project - digitalisation of a forklift](https://youtu.be/gjDBDAQasPM)
+
+
